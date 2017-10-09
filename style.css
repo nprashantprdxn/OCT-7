@@ -1,0 +1,256 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*MY CODE STARTS FROM HERE*/
+.container{overflow-x: hidden;}
+.first-head {background-color: #111;}
+.first-head a:hover{color: red;}
+.info a{text-decoration: none; 
+    padding-left: 22px;
+    color:#d2c9c9;
+    font-family: sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 6px;
+    left: 144px;
+}
+.info a:hover{cursor: url('images/Hand.png'), default;}
+.info .fa{margin-right: 4px;}
+.first-head ul li{display: inline;}
+.info{list-style-type: none;}
+.firsrt-head nav{display: inline-block;}
+.icons{
+	list-style-type: none;
+	position: relative;
+    left: 78%;
+    top: -9px;
+}
+.icons li a{ padding: 13px;color:#d2c9c9; }
+.icons a:hover{cursor: url('images/Hand.png'), default;}
+/*SECOND NAV*/
+.logo img:hover{cursor: default;}
+.nav li a{ 
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 37px 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #111;
+    font-weight: 500;
+    margin-right: 35px;
+}
+
+.nav li a:hover{border-bottom: 3px solid #ea8542;}
+.nav ul{
+	position: relative;
+    left: 51%;
+    top: -102px;
+    margin-left: -94px;
+}
+.second-div{ height: 94px;}
+.nav li{display: inline;}
+
+.second-div img{
+	height: 99px;
+    margin-left: 113px;
+}
+/*MAIN BEGINS HERE*/
+
+.main{width: 100%;}
+.img-cont{
+	position: relative;
+    top: 97px;
+    left: 267px;
+}
+.back-image{
+	background-image: url('images/hd1080.png');
+	background-size: cover;
+	width: 100%;
+	height: 420px;
+}
+
+.big{
+    font-size: 52px;
+    color: #fff;
+    padding: 27px 0;
+}
+
+.small{
+	font-size: 20px;
+    color: #fff;
+}
+
+.para{
+width: 28%;
+padding: 20px 0;
+color:#fff;
+}
+
+.btn{
+	border: 0;
+    background-color: #dc6211;
+    font-size: 17px;
+    padding: 8px 9px;
+    border-radius: 4px;
+    color: #fff;
+    font-family: serif;
+    font-weight: 500;
+}
+
+/*MAIN CONTENT*/
+
+.box{
+	margin-top: 64px;
+    margin-left: 98px;
+}
+
+.meat span{
+margin-left: 13px;
+}
+
+.meat{
+	    width: 280px;
+	    vertical-align: top;
+	    display: inline-block;
+	    margin-right: 12px;
+}
+
+.meat img{
+	position: relative;
+    top: 8px;
+    right: 1px;
+}
+.meat a{
+	color: #dc6211;
+	text-decoration: none;
+	font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+}
+
+.meat a:hover{
+	color: #d01515;
+}
+.mhead{
+    font-size: 33px;
+    padding-bottom: 23px;
+    font-family: sans-serif;
+}
+
+.mpara{
+    color: #525050;
+    padding-bottom: 19px;
+    line-height: 22px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+
+/*LAST*/
+.last{
+	margin-top: 65px;
+}
+
+
+.thing{
+    width: 1157px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid #cccccc;
+    background-color: #fbfbfb;
+    margin-bottom: 35px;
+
+}
+
+.attor{
+	font-family: sans-serif;
+    font-size: 23px;
+    padding-top: 37px;
+    padding-left: 47px;
+
+}
+
+.btn-cont{
+	position: relative;
+	border: 1px solid #cccccc;
+    width: 196px;
+    height: 100px;
+    left: 83%;
+    bottom: 61px;
+    background-color: #fffcfc;
+}
+
+.btn-cont button{
+	border: 0;
+    background-color:#dc6211;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.download{
+	position: relative;
+    width: 114px;
+    height: 40px;
+    left: 39px;
+    top: 30px;
+}
+
+button:hover{
+	background-color: #fff;
+	color:#dc6211;
+	border:1px solid  #dc6211 ; 
+	transition: .5s;
+	cursor: pointer;
+}
+
+
