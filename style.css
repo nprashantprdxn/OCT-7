@@ -86,7 +86,7 @@ table {
     margin-right: 35px;
 }
 
-.nav li a:hover{border-bottom: 3px solid #ea8542;}
+.nav li a:hover{border-bottom: 3px solid #D32000 ;}
 .nav ul{
 	position: relative;
     left: 51%;
@@ -134,7 +134,7 @@ color:#fff;
 
 .btn{
 	border: 0;
-    background-color: #dc6211;
+    background-color: #D32000 ;
     font-size: 17px;
     padding: 8px 9px;
     border-radius: 4px;
@@ -229,7 +229,7 @@ margin-left: 13px;
 
 .btn-cont button{
 	border: 0;
-    background-color:#dc6211;
+    background-color:#D32000 ;
     font-family: sans-serif;
     font-size: 17px;
     padding: 10px;
@@ -247,8 +247,8 @@ margin-left: 13px;
 
 button:hover{
 	background-color: #fff;
-	color:#dc6211;
-	border:1px solid  #dc6211 ; 
+	color:#D32000 ;
+	border:1px solid #D32000 ; 
 	transition: .5s;
 	cursor: pointer;
 }
